@@ -42,7 +42,7 @@ public class VendasApplication {
             todosClientes.forEach(System.out::println);
 
             System.out.println("Buscando por nome");
-            todosClientes = clientes.obterPorNome("De");
+            todosClientes = clientes.obterPorNome("Ma");
             todosClientes.forEach(System.out::println);
 
             System.out.println("Deletar por id");
