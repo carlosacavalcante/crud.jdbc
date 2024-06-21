@@ -19,13 +19,13 @@ public class VendasApplication {
         return args ->{
             System.out.println("Cadastrar Cliente");
             Cliente cliente =  new Cliente();
-            cliente.setNome("Cael");
+            cliente.setNome("Maria");
             clientes.salvar(cliente);
 
-            cliente.setNome("Denise");
+            cliente.setNome("Jose");
             clientes.salvar(cliente);
 
-            cliente.setNome("Carlos");
+            cliente.setNome("Joao");
             clientes.salvar(cliente);
 
             System.out.println("Buscar todos");
